@@ -1,0 +1,500 @@
+   21  cat sample.txt
+   22  cat --help
+   23  > --
+   24  ls
+   25  cd linux-content
+   26  cat data.csv
+   27  head -5 data.csv
+   28  head  data.csv
+   29  tail -5 data.csv
+   30  cd ..
+   31  find . -size +5M
+   32  find . -size +5K
+   33  find . -size +5M
+   34  find . -name *.pdf -size +5M
+   35  find . -size +5M
+   36  find . -size +5M | grep pdf
+   37  find . -size +5M
+   38  find . -name pd*
+   39  find . -name lin*
+   40  cd linux-content
+   41  cat data.csv
+   42  grep CAPTAIN data.csv
+   43  cat data.csv
+   44  cat data.csv | head -8
+   45  cat data.csv | head -8 | tail -5
+   46  cd ..
+   47  ls
+   48  ls -p
+   49  ls -p | grep /
+   50  ls -p | grep -v /
+   51  env | grep USERNAME
+   52  acccess.log
+   53  cd acccess.log
+   54  git log > commits.txt
+   55  Terminal_Commands log > abc.txt
+   56  history | grep git
+   57  git log
+   58  history | head git
+   59  history
+   60  history access.log
+   61  access.log
+   62  ls
+   63  ls linux-content/
+   64  ls linux-content/linux_
+   65  ls -l
+   66  ls linux-content/ -l
+   67  ls linux-content/linux_chit_sheet.pdf -l
+   68  ls linux-content/linux_chit_sheet.pdf 
+   69  ls
+   70  ls -a
+   71  ls -al
+   72  ls -a -l
+   73  pwd
+   74  ls ~
+   75  cd ~
+   76  cd -
+   77  ls ..
+   78  mkdir temp
+   79  cd Terminal_Commands
+   80  mkdir temp
+   81  cd ..
+   82  cd -
+   83  cd -
+   84  cd -
+   85  ls
+   86  mkdir temp
+   87  mkdir temp1
+   88  ls
+   89  rm -r temp1
+   90  ls
+   91  mkdir temp1
+   92  rm -r temp1 temp
+   93  ls
+   94  mkdir temp
+   95  mkdir -p temp1/temp1/temp2
+   96  ls
+   97  rm -r temp
+   98  ls
+   99  ls temp1/
+  100  mkdir temp
+  101  cd temp
+  102  touch a.txt b.txt c.txt
+  103  ls
+  104  mkdir test
+  105  ls
+  106  ls -p
+  107  ls -l
+  108  touch a.pdf
+  109  ls
+  110  cp a.txt text.txt
+  111  ls
+  112  mv a.txt text.txt
+  113  ls
+  114  whereis
+  115  whereis cp
+  116  ls -l /bin
+  117  ls -l /bin
+  118  ls /bin
+  119  cd ..
+  120  ls linux-content
+  121  ln -s linux-content/linux_chit_sheet.pdf ~Onedrive/Desktop/
+  122  ln -s linux-content/linux_chit_sheet.pdf ~/Onedrive/Desktop/
+  123  ln -s linux-content/linux_chit_sheet.pdf /Onedrive/Desktop/
+  124  ln -s linux-content/linux_chit_sheet.pdf ~/Onedrive/Desktop/
+  125  ls
+  126  ln -s linux-content/linux_chit_sheet.pdf
+  127  ls
+  128  pwd
+  129  ln -s linux-content/linux_chit_sheet.pdf ~/Onedrive/
+  130  ls ~ l
+  131  java --version
+  132  java -version
+  133  echo hello everyone
+  134  echo $username
+  135  echo $USERNAME
+  136  echo $SHELL
+  137  echo $HOME
+  138  du -sh linux-content/
+  139  ls
+  140  java -version
+  141  java --version
+  142  du -sh sample.txt
+  143  du -s sample.txt
+  144  du -s linux-content/
+  145  du -sh linux-content/
+  146  du -sm * | sort -nr
+  147  du -sm * | sort -n
+  148  find . -type f -empty
+  149  find . -type f -empty -l
+  150  nano -T 3 Helloworld.java
+  151  javac -T 3 Helloworld.java
+  152  nano -T 3 Helloworld.java
+  153  javac Helloworld.java
+  154  nano -T 3 Helloworld.java
+  155  javac Helloworld.java
+  156  nano -T 3 Helloworld.java
+  157  javac Helloworld.java
+  158  java Helloworld.java
+  159  java Helloworld &
+  160  java Helloworld.java
+  161  java -version
+  162  java --version
+  163  cd Onedrive
+  164  cd Terminal-Commands
+  165  cd Desktop/Terminal-Commands/
+  166  cd Desktop
+  167  cd Terminal-Commands
+  168  ls
+  169  cd Terminal_Commands/
+  170  nano - T 3 Helloworld.java
+  171  javac Helloworld.java
+  172  java Helloworld &
+  173  ps
+  174  cd Onedrive
+  175  cd Desktop
+  176  cd Terminal_Commands
+  177  javac Helloworld.java
+  178  ps -elf
+  179  ps -elf | grep java
+  180  java Helloworld.java
+  181  java Helloworld &
+  182  ps -elf | grep java
+  183  nano - T 3 Helloworld.java
+  184  ls
+  185  #!/bin/bash -x
+  186  for files in `ls *.txt`; do    folderName=`echo $files | awk -F. '{ print $1 }'`;    if [ -d $folderName ];    then       rm -r $folderName;    fi;    mkdir $folderName;    cp $files $folderName; done
+  187  cd -
+  188  cd /Onedrive/Desktop
+  189  cd /Onedrive
+  190  cd Onedrive
+  191  cd ..
+  192  cd Onedrive/Desktop
+  193  cd ..
+  194  cd ...
+  195  cd ..
+  196  cd Onedrive/Desktop/Terminal_commands
+  197  ls
+  198  ls linux-content/
+  199  ls linux-content/linux_
+  200  ls linux-content/linux_
+  201  cd linux-content/linux_
+  202  ls linux-content/linux
+  203  cd linux-content
+  204  ls linux-content/linux
+  205  cd linux-content/linux_
+  206  ls linux-content/linux_
+  207  cd ..
+  208  ls linux-content/linux_
+  209  ls linux-content/linux_c
+  210  clear
+  211  ls linux-content/linux_c
+  212  ls
+  213  ls linux-content/
+  214  ls linux-content/linux_
+  215  ls -l linux-content/linux_
+  216  ls -l linux-content/
+  217  ls -l linux-content/linux_
+  218  ls -l linux-content/access
+  219  ls -l linux-content/R
+  220  ls -al
+  221  mkdir tem_p
+  222  ls tem_p
+  223  rm -r tem_p
+  224  ls
+  225  mkdir tem_p/tem_p1
+  226  mkdir -p tem_p/tem_p1
+  227  ls
+  228  ls tem_p/tem_p1/
+  229  rm -r tem_p
+  230  ls
+  231  cd temp
+  232  ls
+  233  rm -r temp
+  234  cd ..
+  235  rm -r temp
+  236  ls
+  237  mkdir temp
+  238  cd temp
+  239  ls
+  240  touch a.txt b.txt c.txt
+  241  ls
+  242  mkdir test
+  243  ls
+  244  ls -l
+  245  mv a.txt c.txt
+  246  ls
+  247  ls -l
+  248    whereis cp
+  249  man ls
+  250  ls etc/password/
+  251  cd ..
+  252  ls etc/password/
+  253  ls
+  254  ls temp/a.txt/
+  255  ls -l temp/
+  256   less temp
+  257  less txt
+  258  less b.txt
+  259  lest test/
+  260  less test/
+  261  where ls
+  262  cd linux-content
+  263  ls
+  264  cat data.csv
+  265  cat --
+  266  cat --help
+  267  ls
+  268  cat README.md
+  269  cat linux_chit_sheet.pdf
+  270  cd Onedrive/Desktop/Terminal_Commands
+  271  cd linux-content
+  272  ls
+  273  cat data.csv
+  274  cat > Sample.txt
+  275  ls
+  276  ls Sample.txt
+  277  cat Sample.txt
+  278  head -5 Sample.csv
+  279  head -5 Sample.txt
+  280  less -5 Sample.txt
+  281  cd Onedrive/Desktop/Terminal_Commands/linux-content
+  282  cat data.csv
+  283  head -5 data.csv
+  284  tail-5 data.csv
+  285  head data.csv
+  286  tail-5 data.csv
+  287  tail -5 data.csv
+  288  head -5 tail -5 data.csv
+  289  head -10 tail -5 data.csv
+  290  tail data.csv
+  291  cd ~/Onedrive/Desktop
+  292  mkdir Prob01
+  293  cd Prob01
+  294  mkdir Temp
+  295  cd Temp
+  296  touch abc.txt def.txt ghi.txt jkl.txt
+  297  ls
+  298  mv abc.txt abc
+  299  ls
+  300  ls abc/
+  301  ls -p abc/
+  302  mv def.txt def
+  303  mv ghi.txt ghi
+  304  mv jkl.txt jkl
+  305  ls
+  306  ls -l
+  307  rm -r Temp
+  308  cd ..
+  309  rm -r Temp
+  310  mkdir Temp
+  311  touch abc.txt def.txt ghi.txt jkl.txt
+  312  ls
+  313  cd Temp
+  314  touch abc.txt def.txt ghi.txt jkl.txt
+  315  ls
+  316  basename abc.txt
+  317  basename abc.txt .txt
+  318  ls
+  319  basename def.txt .txt
+  320  basename ghi.txt .txt
+  321  basename jhl.txt .txt
+  322  basename abc.txt def.txt ghi.txt jkl.txt .txt
+  323  basename abc.txt def.txt ghi.txt jkl.txt
+  324  ls
+  325  basename -az abc.txt def.txt ghi.txt jkl.txt
+  326  basename -az abc.txt def.txt ghi.txt jkl.txt .txt
+  327  ls
+  328  basename -s abc.txt def.txt ghi.txt jkl.txt .txt
+  329  basename -s abc.txt def.txt ghi.txt jkl.txt
+  330  basename -s abc.txt def.txt ghi.txt 
+  331  basename -s abc.txt def.txt ghi.txt 
+  332  ls
+  333  basename -a abc abc.txt
+  334  ls
+  335  cd ..
+  336  mkdir Temp2
+  337  cd Temp2
+  338  touch abc.log.1 def.log.1 ghi.log.1 jkl.log.1 mno.log.1
+  339  ls
+  340  find Temp2/ -mtime -N -ls
+  341  find Temp2/ -mtime -1 -ls
+  342  find ~/ -mtime -1 -ls
+  343  find ~/Onedrive/Desktop/ -mtime -1 -ls
+  344  find ~/Onedrive/Desktop/Prob01 -mtime -1 -ls
+  345  find ~/Onedrive/Desktop/Prob01 -mtime -1 -p
+  346  find ~/Onedrive/Desktop/Prob01 -mtime -1 -ls
+  347  find ~/Onedrive/Desktop/Prob01 -mtime -7 -ls
+  348  find ~/Onedrive/Desktop/Prob01 -mtime +7 -ls
+  349  find . -size +5m
+  350  find . -size +5M
+  351  cd ..
+  352  find . -size +5M
+  353  cd ..
+  354  find . -size +5M
+  355  cd -
+  356  cd Temp2
+  357  cd ..
+  358  cd ..
+  359  find . -size +5M -name *.pdf
+  360  ls
+  361  find . -size +5M -name *.docx
+  362  find . -size +5M -name Resume.pdf
+  363  find . -size +5M -name *.docx
+  364  find . -size +5M -name *.pdf
+  365  find . -size +5M -type f
+  366  find . -size 5G -type f
+  367  find . -size 500M -type f
+  368  find . -size 5M -type f
+  369  find . -size +5M -type f
+  370  find . -size +5M -type f -name *.pdf
+  371  find . -size 5G -type f | grep *.pdf
+  372  find . -size 5G -type f | grep pdf
+  373  find . -size 5G -type f | grep .pdf
+  374  find . -size 5M -type f | grep .pdf
+  375  find . -size +5M -type f | grep .pdf
+  376  cd Terminal_Commands
+  377  cd linux-content
+  378  cat data.csv
+  379  cd ..
+  380  find linux-content/ -name *.csv
+  381  find -name *.csv
+  382  cd..
+  383  cd ..
+  384  find -name *.csv
+  385  cd -
+  386  cd linux-content
+  387  cat data.csv
+  388  grep CAPTAIN data.csv
+  389  grep EXECUTIVE data.csv
+  390  grep CHIEF data.csv
+  391  cd ~
+  392  grep -i captain Onedrive/Desktop/Terminal_Commands/linux-content/data.csv
+  393  grep -i captain 
+  394  grep -ir captain 
+  395  cd Onedrive/Desktop
+  396  grep -ir captain 
+  397  grep -ir captain .
+  398  cd -
+  399  cd -
+  400  cd Terminal_COmmands/
+  401  ls -p |grep /
+  402  ls -p | grep /
+  403  ls -p | grep -v /
+  404  cd linux-content
+  405  grep -v CAPTAIN data.csv
+  406  grep --
+  407  grep --help
+  408  env
+  409  env | grep -i home
+  410  env | grep HOME
+  411  grep user
+  412  env | grep -i user
+  413  env | grep -i user
+  414  echo $user
+  415  echo $USER
+  416  echo $USER
+  417  env | grep -i user
+  418  echo $SHELL
+  419  whereis bash
+  420  ls -l /bin/bash
+  421  bsh version
+  422  bash version
+  423  /bin/bash -version
+  424  echo $SHELL
+  425  bash -version
+  426  du -sh linux-content/
+  427  find -type f -name empty
+  428  find . -type f -empty
+  429  cd ..
+  430  find . -type f -empty
+  431  ls
+  432  cd sample
+  433  nano Helloworld
+  434  nano Helloworld.java
+  435  javac Helloworld
+  436  nano Helloworld.java
+  437  java Helloworld.java
+  438  nano Helloworld.java
+  439  java Helloworld.java
+  440  nano -T 3 Helloworld.java
+  441  nano -T 5 Helloworld.java
+  442  nano -T 3 Helloworld.java
+  443  nano -T 3 Helloworld.java
+  444  ps
+  445  ps -elf
+  446  ps -elf | more
+  447  nano -T 5 Helloworld.java
+  448  java Helloworld.java
+  449  nano -T 3 Helloworld.java
+  450  java Helloworld.java
+  451  nano -T 3 Helloworld.java
+  452  java Helloworld.java
+  453  nano -T 3 Helloworld.java
+  454  java Helloworld.java
+  455  nano -T 3 Helloworld.java
+  456  java Helloworld.java
+  457  java Helloworld.java
+  458  nano -T 3 Helloworld.java
+  459  java Helloworld.java
+  460  java Helloworld.java
+  461  jobs
+  462  ls
+  463  fg %1
+  464  java Helloworld.java
+  465  fg %52185407
+  466  fg %18812
+  467  fg %sig
+  468  ps -elf | grep java
+  469  ls
+  470  ps -elf
+  471  java Helloworld.java
+  472  ps -elf
+  473  ps -elf | grep PID
+  474  ps -elf | grep -PID 
+  475  kill -9 
+  476  java Helloworld.java &
+  477  mpstat
+  478  kill -9 
+  479  mpstat
+  480  sh
+  481  mpstat -P ALL
+  482  sar -u 2 5t
+  483  elf --
+  484  elf --help
+  485  cd -
+  486  cd Onedrive/Desktop/
+  487  ps -elf
+  488  Iostat
+  489  #!/bin/bash -x
+  490  empCheck=$((RANDOM%3))
+  491  empRatePerHr=20
+  492  if [ $empCheck -eq 1 ]; then 	empHrs=8; elif [ $empCheck -eq 2 ]; then 	empHrs=4; else 	empHrs=0; fi
+  493  salary=$(($empRatePerHr*$empHrs))
+  494  #!/bin/bash -x
+  495  empCheck=$((RANDOM%3))
+  496  empRatePerHr=20
+  497  if [ $empCheck -eq 1 ]; then 	empHrs=8; elif [ $empCheck -eq 2 ]; then 	empHrs=4; else 	empHrs=0; fi
+  498  salary=$(($empRatePerHr*$empHrs))
+  499  cd Onedrive/Desktop
+  500  ls
+  501  ls Shell_Programming/
+  502  cd Shell_Programming/
+  503  ls
+  504  ls Case_Statement/
+  505  ls Selection-statement/
+  506  cd Selection-statement/
+  507  ls
+  508  mkdir for-loop
+  509  cd for-loop
+  510  nano ForTest.sh
+  511  ./ForTest.sh
+  512  nano ForTest.sh
+  513  bash ForTest.sh
+  514  History
+  515  history
+  516  history export abc.txt
+  517  history export 
+  518  history > export 
+  519  ls
+  520  history > export.txt 
